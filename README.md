@@ -32,9 +32,7 @@ bun install
 Run the server:
 
 ```bash
-node or_proxy.js
-# or
-bun or_proxy.js
+bun or_proxy.ts
 ```
 
 Then, just replace all API calls from `https://openrouter.ai/api/v1` to `http://localhost:3001/v1`. (Note the lack of `/api`)
@@ -42,9 +40,7 @@ Then, just replace all API calls from `https://openrouter.ai/api/v1` to `http://
 By default, the server listens on port 3001. You can change this by setting the PORT environment variable:
 
 ```bash
-PORT=8080 node or_proxy.js
-# or 
-PORT=8080 bun or_proxy.js
+PORT=8080 bun or_proxy.ts
 ```
 
 Docker and Docker Compose is also supported.
