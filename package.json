@@ -9,6 +9,6 @@
         "body-parser": "^1.20.2",
         "axios": "^1.4.0"
     },
-    "author": "CrushedAsian255",
+    "author": "CrushedAsian255 (original), oponic (fork)",
     "license": "MIT"
 }
